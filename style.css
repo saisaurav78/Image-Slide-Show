@@ -1,0 +1,45 @@
+*{
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+}
+#left-btn{
+position: absolute;
+   top:50%;
+   left: 0px;
+   padding: 10px;
+   background: transparent;
+}
+#right-btn{
+position: absolute;
+   top:50%;
+   right: 0px;
+   padding: 10px;
+   background: transparent;
+}
+button{
+   box-shadow: 1px 1px 5px rgb(0,0,0,0.2);
+    background: transparent;
+   animation: blink 1s infinite alternate;
+}
+i{
+   font-size: 40px;
+   color: white;
+}
+body{
+    background-image: url(assets/img-1.jpg);
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes blink {
+   from{
+      opacity: 0.4;
+   }
+   to{
+      opacity: 1;
+   }
+}
+
